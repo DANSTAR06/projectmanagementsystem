@@ -16,9 +16,9 @@ SECRET_KEY = get_random_secret_key()
 
 SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['54.166.239.151', 'localhost', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
